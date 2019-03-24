@@ -1,0 +1,56 @@
+{
+  "name": "redis-scan-cli",
+  "version": "0.1.0",
+  "main": "redis-scan-cli.js",
+  "bin": "redis-scan-cli.js",
+  "repository": "git@github.com:miklosn/redis-scan-cli.git",
+  "author": "Miklos Niedermayer <miklosniedermayer@icloud.com>",
+  "license": "MIT",
+  "scripts": {
+    "pkg": "pkg --out-path bin ."
+  },
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "commander": "^2.19.0",
+    "jsesc": "^2.5.2",
+    "redis": "2.8.0",
+    "redisscan": "^2.0.0",
+    "signale": "^1.4.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "pkg": "^4.3.4",
+    "prettier": "^1.16.4"
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    },
+    "extends": [
+      "eslint:recommended",
+      "plugin:prettier/recommended"
+    ],
+    "env": {
+      "node": true
+    },
+    "rules": {
+      "quotes": [
+        "error",
+        "single"
+      ]
+    }
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "pkg": {
+    "targets": [
+      "node10-macos-x64",
+      "node10-linux-x64"
+    ]
+  }
+}
