@@ -5,7 +5,7 @@ const { Signale } = require('signale');
 const { promisify } = require('util');
 
 program
-  .version('0.1.0')
+  .version('0.1.1')
   .arguments('<pattern>')
   .option('--host <host>', 'Redis host (default: 127.0.0.1)')
   .option('-p, --port <port>', 'Redis port (default: 6379)')

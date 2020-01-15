@@ -1,6 +1,6 @@
 {
   "name": "redis-scan-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "redis-scan-cli.js",
   "bin": "redis-scan-cli.js",
   "repository": "git@github.com:miklosn/redis-scan-cli.git",
