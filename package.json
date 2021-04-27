@@ -13,7 +13,7 @@
     "bluebird": "^3.5.3",
     "commander": "^2.19.0",
     "jsesc": "^2.5.2",
-    "redis": "2.8.0",
+    "redis": "3.1.1",
     "redisscan": "^2.0.0",
     "signale": "^1.4.0"
   },
